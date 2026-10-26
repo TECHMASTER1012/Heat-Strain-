@@ -1,14 +1,5 @@
 # Forecasting occupational heat-strain risk 15 minutes ahead
 
-BCSE316L Course Project, School of Computer Science and Engineering (SCOPE), Vellore Institute of Technology.
-
-| Team member | Register no. |
-|---|---|
-| Saksham Mishra | 23BCT0228 |
-| Shashwat Trivedi | 23BCT0175 |
-| Raunak Saigal | 23BCT0193 |
-
-Supervisor: Prof. Prabin S M (prabin.sm@vit.ac.in)
 
 ## What this project does
 
