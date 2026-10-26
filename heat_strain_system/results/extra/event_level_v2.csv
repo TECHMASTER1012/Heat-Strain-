@@ -1,0 +1,3 @@
+model,reaching,no_alert_before_crossing,ontime,early_gt15,ontime_median,ontime_q25,ontime_q75,persistent_ontime,persistent_early,never_reaching,never_with_any_high,never_with_persistent,false_high_forecasts_per_hour
+XGBoost,63,5,31,27,10.0,7.0,13.0,31,24,92,38,32,2.761
+Fusion (full),63,8,29,26,10.0,7.0,13.0,30,23,92,50,42,4.995

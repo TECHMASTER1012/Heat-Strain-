@@ -1,0 +1,3 @@
+subset,features,windows,macro_f1,sd,acc
+complete HR+BR windows,all features,7704,0.6730084170767329,0.04217943624374291,0.7248659519263754
+complete HR+BR windows,cardio-resp only,7704,0.5266145170744001,0.0806677790497588,0.5919024913083645

@@ -1,0 +1,8 @@
+model,ece_raw_mean,ece_cal_mean
+LogReg,0.083,0.052
+RandomForest,0.081,0.059
+XGBoost,0.06,0.052
+ablation_cardio_only,0.11,0.099
+ablation_no_fusion,0.088,0.174
+ablation_no_grl,0.08,0.165
+fusion_full,0.085,0.17

@@ -1,0 +1,4 @@
+model,mean,std,min,max
+LogReg,0.664,0.005,0.659,0.67
+RandomForest,0.686,0.005,0.68,0.691
+XGBoost,0.712,0.007,0.701,0.717

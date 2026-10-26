@@ -1,0 +1,8 @@
+fold 0: macroF1=0.652 acc=0.673 restarts=0 56s
+fold 1: macroF1=0.644 acc=0.651 restarts=0 41s
+fold 2: macroF1=0.691 acc=0.691 restarts=0 52s
+fold 3: macroF1=0.730 acc=0.755 restarts=0 45s
+fold 4: macroF1=0.705 acc=0.740 restarts=0 41s
+fold 5: macroF1=0.725 acc=0.774 restarts=0 48s
+fold 6: macroF1=0.646 acc=0.659 restarts=0 37s
+fold 7: macroF1=0.752 acc=0.762 restarts=0 32s

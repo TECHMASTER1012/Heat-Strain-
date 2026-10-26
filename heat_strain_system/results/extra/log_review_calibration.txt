@@ -1,0 +1,21 @@
+fold 0 T_fusion=1.25 val_n=1956
+fold 1 T_fusion=1.80 val_n=1817
+fold 2 T_fusion=2.40 val_n=1689
+fold 3 T_fusion=2.20 val_n=1622
+fold 4 T_fusion=3.85 val_n=1639
+fold 5 T_fusion=1.75 val_n=1667
+fold 6 T_fusion=2.70 val_n=1828
+fold 7 T_fusion=1.75 val_n=1876
+     model  calibration     ece  ece_high     nll   brier     acc
+0  XGBoost         none  0.0509    0.0202  0.5933  0.3577  0.7407
+1  XGBoost  temperature  0.0142    0.0114  0.5798  0.3517  0.7407
+2  XGBoost       vector  0.0173    0.0149  0.5863  0.3569  0.7325
+3   Fusion         none  0.0920    0.0573  0.7750  0.4222  0.6918
+4   Fusion  temperature  0.0316    0.0197  0.6987  0.4149  0.6918
+5   Fusion       vector  0.0268    0.0168  0.6916  0.4122  0.6902
+   coverage  accuracy      n
+0       1.0    0.6923  14103
+1       0.8    0.7374  11282
+2       0.6    0.7954   8462
+3       0.4    0.8757   5641
+AUROC of entropy for error: 0.719

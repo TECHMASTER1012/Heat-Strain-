@@ -1,0 +1,18 @@
+LogReg 0 0.6736 0.7004
+RandomForest 0 0.6923 0.7109
+XGBoost 0 0.716 0.7362
+LogReg 1 0.6736 0.7004
+RandomForest 1 0.6909 0.7099
+XGBoost 1 0.7208 0.7401
+LogReg 2 0.6736 0.7004
+RandomForest 2 0.693 0.7112
+XGBoost 2 0.713 0.7327
+{'setting': 'only cardio_resp', 'n_features': 6, 'macro_f1': np.float64(0.4168286085340256), 'macro_f1_sd': np.float64(0.05620284636234148), 'acc': np.float64(0.4487482240691867), 'recall_high': np.float64(0.6349614821545524)} {'setting': 'all except cardio_resp', 'n_features': 70, 'macro_f1': np.float64(0.7138762654672568), 'macro_f1_sd': np.float64(0.040576342700706466), 'acc': np.float64(0.7342440249292045), 'recall_high': np.float64(0.6724116253719546)}
+{'setting': 'only skin_thermal', 'n_features': 36, 'macro_f1': np.float64(0.683571190713802), 'macro_f1_sd': np.float64(0.03660038620575102), 'acc': np.float64(0.7023381977918128), 'recall_high': np.float64(0.6823933152940796)} {'setting': 'all except skin_thermal', 'n_features': 40, 'macro_f1': np.float64(0.6090439649405995), 'macro_f1_sd': np.float64(0.04111825799279628), 'acc': np.float64(0.6492603310864649), 'recall_high': np.float64(0.5242312679266616)}
+{'setting': 'only environment', 'n_features': 25, 'macro_f1': np.float64(0.5712343196149869), 'macro_f1_sd': np.float64(0.05737613824049519), 'acc': np.float64(0.6068005331518944), 'recall_high': np.float64(0.5479031605625684)} {'setting': 'all except environment', 'n_features': 51, 'macro_f1': np.float64(0.6872829229717283), 'macro_f1_sd': np.float64(0.03737131344615724), 'acc': np.float64(0.7092137167294134), 'recall_high': np.float64(0.6572965527978522)}
+{'setting': 'only individual', 'n_features': 9, 'macro_f1': np.float64(0.2848958012436059), 'macro_f1_sd': np.float64(0.05041140985692526), 'acc': np.float64(0.3586366719607291), 'recall_high': np.float64(0.14169837119277592)} {'setting': 'all except individual', 'n_features': 67, 'macro_f1': np.float64(0.7070071273603501), 'macro_f1_sd': np.float64(0.03302261888775386), 'acc': np.float64(0.7297103068004899), 'recall_high': np.float64(0.6685087521926867)}
+perm {'rep': 0, 'macro_f1': np.float64(0.3222289117625053), 'acc': np.float64(0.3589209001799709)}
+perm {'rep': 1, 'macro_f1': np.float64(0.32752755429595004), 'acc': np.float64(0.3702541633496018)}
+perm {'rep': 2, 'macro_f1': np.float64(0.33371330539256183), 'acc': np.float64(0.36800098193828923)}
+perm {'rep': 3, 'macro_f1': np.float64(0.32152702929724386), 'acc': np.float64(0.35989156258597865)}
+perm {'rep': 4, 'macro_f1': np.float64(0.3260668645390513), 'acc': np.float64(0.35877549248480817)}

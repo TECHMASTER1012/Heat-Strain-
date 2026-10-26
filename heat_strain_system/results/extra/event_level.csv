@@ -1,0 +1,3 @@
+model,trials,trials_reaching_385,alerted,alert_before_crossing,median_lead_min,lead_q25,lead_q75,persistent_before_crossing,median_lead_persistent,trials_never_reaching,false_alert_trials,false_alert_trials_persistent
+XGBoost,155,63,60,58,15.0,9.75,18.25,55,13.5,92,38,32
+Fusion (full),155,63,61,55,14.0,8.0,19.0,53,13.0,92,50,42

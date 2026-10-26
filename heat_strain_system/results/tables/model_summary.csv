@@ -1,0 +1,8 @@
+model,macro_f1_mean,macro_f1_std,accuracy_mean,accuracy_std,recall_Low,recall_Moderate,recall_High,roc_auc
+LogReg,0.673,0.039,0.697,0.047,0.764,0.604,0.723,0.866
+RandomForest,0.692,0.04,0.708,0.045,0.737,0.695,0.688,0.876
+XGBoost,0.719,0.034,0.738,0.04,0.803,0.688,0.686,0.893
+ablation_cardio_only,0.426,0.086,0.469,0.105,0.496,0.361,0.611,0.694
+ablation_no_fusion,0.66,0.056,0.682,0.058,0.734,0.609,0.697,0.854
+ablation_no_grl,0.695,0.046,0.715,0.053,0.746,0.69,0.695,0.871
+fusion_full,0.674,0.037,0.693,0.045,0.736,0.64,0.716,0.867
